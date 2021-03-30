@@ -1,0 +1,28 @@
+body {
+     background-color: #1a26d3;
+}
+
+.reb {
+    padding-top: 100px;
+}
+
+.letraBlanca {
+    color: #1a26d3;
+}
+
+#div1 {
+    overflow:scroll;
+    height:400px;
+    width:500px;
+}
+#div1 table {
+   width:500px;
+   background-color:lightgray;
+}
+.letraNegra{
+    color: black;
+}
+.carrusel{
+    width: auto;
+    height: auto;
+}
