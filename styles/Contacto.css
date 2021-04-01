@@ -1,0 +1,35 @@
+.formulario{
+}
+
+:root{
+    --azul-main: #01A7B6;
+	--verde-main: #19b400;
+    --white-backgound: rgb(254, 255, 245);
+    --letra: rgb(61, 61, 61);
+}
+.contacto-section{
+    background-color: var(--white-backgound);
+	border: 2px var(--azul-main) solid;
+	border-top: none;
+	border-bottom: none;
+	/* border-radius: 10px; */
+	margin-top: 3rem;
+	padding: 1rem;
+	width: 60%;
+	margin: auto;
+}
+
+.contacto{
+    background-color: var(--white-backgound);
+	color: var(--letra);
+    text-align: center;
+}
+
+.contenedor-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn-enviar{
+	align-self: center;
+}
