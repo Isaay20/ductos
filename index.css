@@ -1,0 +1,57 @@
+:root {
+	--azul-main: #18b4c3;
+	--verde-main: #19b400;
+	--white-backgound: rgb(246, 255, 255);
+	--letra: rgb(61, 61, 61);
+}
+
+body {
+	background-color: var(--white-backgound);
+	color: var(--letra);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar-app {
+	background-color: #18b4c3;
+	/* height: 5rem; */
+	margin-bottom: 2rem;
+}
+
+.navbar-img{
+	height: 3.5rem;
+}
+
+.main{
+	margin-top: 1rem;
+}
+
+.servicios-section{
+	background-color: var(--white-backgound);
+	border: 2px var(--azul-main) solid;
+	border-top: none;
+	border-bottom: none;
+	/* border-radius: 10px; */
+	margin-top: 3rem;
+	padding: 1rem;
+}
+
+.servicios-titulo{
+	/* text-decoration: underline; */
+	background-color: var(--white-backgound);
+	color: var(--letra);
+	text-align: center;
+}
+
+.cards-section{
+	margin-top: 2rem;
+}
+
+
+.footer{
+	background-color: var(--azul-main);
+	height: 5rem;
+	margin-top: 5rem;
+	display: flex;
+	align-items: center;
+
+}
