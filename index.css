@@ -1,7 +1,8 @@
 :root {
-	--azul-main: #18b4c3;
+	--azul-main: #01A7B6;
 	--verde-main: #19b400;
-	--white-backgound: rgb(246, 255, 255);
+	--white-backgound: rgb(254, 255, 245);
+	/* --whiter: rgb(236, 243, 235); */
 	--letra: rgb(61, 61, 61);
 }
 
@@ -42,16 +43,38 @@ body {
 	text-align: center;
 }
 
+.servicios-hr{
+	width: 50%;
+	margin: auto;
+}
+
+.servicios-contenido{
+	font-weight: bold;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
 .cards-section{
 	margin-top: 2rem;
 }
 
 
+footer{
+	background-color: var(--azul-main);
+	color: var(--white-backgound);
+}
+
 .footer{
 	background-color: var(--azul-main);
-	height: 5rem;
+	height: 100px;
 	margin-top: 5rem;
 	display: flex;
 	align-items: center;
 
+}
+
+.copyright{
+	background-color: var(--azul-main);
+	padding: 2rem 0 2rem 0;
+	text-align: center;
 }
