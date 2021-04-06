@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Isaay20/ductos#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.0.0-beta3"
   }
 }

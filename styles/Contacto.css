@@ -1,14 +1,11 @@
-.formulario{
-}
-
-:root{
-    --azul-main: #01A7B6;
+:root {
+	--azul-main: #01a7b6;
 	--verde-main: #19b400;
-    --white-backgound: rgb(254, 255, 245);
-    --letra: rgb(61, 61, 61);
+	--white-backgound: rgb(254, 255, 245);
+	--letra: rgb(61, 61, 61);
 }
-.contacto-section{
-    background-color: var(--white-backgound);
+.contacto-section {
+	background-color: var(--white-backgound);
 	border: 2px var(--azul-main) solid;
 	border-top: none;
 	border-bottom: none;
@@ -19,17 +16,23 @@
 	margin: auto;
 }
 
-.contacto{
-    background-color: var(--white-backgound);
+.contacto {
+	background-color: var(--white-backgound);
 	color: var(--letra);
-    text-align: center;
+	text-align: center;
 }
 
-.contenedor-btn{
+.contenedor-btn {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	justify-content: center;
 }
-.btn-enviar{
+.btn-enviar {
 	align-self: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.contacto-section{
+		width: 95%;
+	}
 }

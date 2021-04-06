@@ -1,7 +1,7 @@
 :root {
 	--azul-main: #01A7B6;
 	--verde-main: #19b400;
-	--white-backgound: rgb(254, 255, 245);
+	--white-backgound: rgb(231, 231, 231);
 	/* --whiter: rgb(236, 243, 235); */
 	--letra: rgb(61, 61, 61);
 }
@@ -56,6 +56,16 @@ body {
 
 .cards-section{
 	margin-top: 2rem;
+}
+
+.clientes{
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.clientes-img {
+	width: 95%;
 }
 
 
